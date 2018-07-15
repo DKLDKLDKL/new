@@ -1,0 +1,259 @@
+.header {
+    position: relative;
+    width: 1600px;
+    height: 75px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .header .back {
+    float: left;
+    height: 75px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+  }
+  .header .search {
+    width: 250px;
+    height: 35px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #fff;
+  }
+  .header .search .search-bg {
+    float: left;
+    width: 50px;
+    height: 35px;
+    background-color: #3d92ca;
+    background-image: url(../images/search.png);
+    background-position: 10px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+  }
+  .header .search input {
+    float: left;
+    width: 200px;
+    height: 35px;
+    padding-left: 5px;
+    font-size: 18px;
+    line-height: 35px;
+    border: none;
+  }
+  .container {
+    position: relative;
+    width: 1600px;
+    margin: auto;
+    height: 800px;
+  }
+  .container .side {
+    float: left;
+    width: 290px;
+    height: 800px;
+    margin-right: 10px;
+  }
+  .container .side .type {
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  .container .side .type .title {
+    text-align: left;
+  }
+  .container .side .type .title span {
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+  }
+  .container .side .type .label ul {
+    width: 250px;
+    margin: auto;
+  }
+  .container .side .type .label ul li {
+    float: left;
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+  }
+  .container .side .type .label ul li input {
+    display: none;
+  }
+  .container .side .type .label ul li input:checked ~ label {
+    background: #3d92ca;
+  }
+  .container .side .type .label ul li label {
+    cursor: pointer;
+    display: block;
+    border-radius: 3px;
+  }
+  .container .side .type .label ul li label:hover {
+    background: #3d92ca;
+  }
+  .container .side .area {
+    height: 400px;
+    margin-bottom: 10px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .container .side .area .title {
+    text-align: left;
+  }
+  .container .side .area .title span {
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+  }
+  .container .side .area .label ul {
+    width: 250px;
+    margin: auto;
+  }
+  .container .side .area .label ul li {
+    float: left;
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+  }
+  .container .side .area .label ul li input {
+    display: none;
+  }
+  .container .side .area .label ul li input:checked ~ label {
+    background: #3d92ca;
+  }
+  .container .side .area .label ul li label {
+    cursor: pointer;
+    display: block;
+    border-radius: 3px;
+  }
+  .container .side .area .label ul li label:hover {
+    background: #3d92ca;
+  }
+  .container .side .year {
+    height: 400px;
+    margin-bottom: 10px;
+    height: 180px;
+  }
+  .container .side .year .title {
+    text-align: left;
+  }
+  .container .side .year .title span {
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+  }
+  .container .side .year .label ul {
+    width: 250px;
+    margin: auto;
+  }
+  .container .side .year .label ul li {
+    float: left;
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+  }
+  .container .side .year .label ul li input {
+    display: none;
+  }
+  .container .side .year .label ul li input:checked ~ label {
+    background: #3d92ca;
+  }
+  .container .side .year .label ul li label {
+    cursor: pointer;
+    display: block;
+    border-radius: 3px;
+  }
+  .container .side .year .label ul li label:hover {
+    background: #3d92ca;
+  }
+  .container .content {
+    float: left;
+    width: 1300px;
+    height: 800px;
+  }
+  .container .content .select {
+    height: 40px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .container .content .select span {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .container .content .select span:hover {
+    background: #3d92ca;
+  }
+  .container .content .cont {
+    height: 750px;
+    width: 1300px;
+    overflow-y: scroll;
+  }
+  .container .content .cont ul li {
+    width: 200px;
+    height: 300px;
+    margin: 20px 25px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #fff;
+  }
+  .container .content .cont ul li:hover {
+    box-shadow: 0 0 20px #fff;
+  }
+  .container .content .cont ul li:hover .tip {
+    bottom: 0;
+  }
+  .container .content .cont ul li:hover .tip span {
+    white-space: normal;
+  }
+  .container .content .cont ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .container .content .cont ul li a img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .content .cont ul li a .tip {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    bottom: -60px;
+    transition: all 500ms;
+  }
+  .container .content .cont ul li a .tip p {
+    margin: 0;
+    pad: 0;
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  .container .content .cont ul li a .tip p span {
+    margin-left: 10px;
+    color: #3d92ca;
+  }
+  .container .content .cont .loading-box {
+    width: 100%;
+    line-height: 50px;
+  }
+  

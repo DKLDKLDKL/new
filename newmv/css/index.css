@@ -1,0 +1,231 @@
+#header {
+    position: relative;
+    width: 1600px;
+    height: 75px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  #header .logo {
+    float: left;
+    margin-left: 20px;
+  }
+  #header .tip {
+    width: 50%;
+    line-height: 75px;
+    text-align: center;
+    float: right;
+  }
+  #container {
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    width: 1600px;
+    height: 800px;
+  }
+  #container a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  #container .left-box {
+    flex: 4;
+    padding-right: 30px;
+  }
+  #container .left-box .all-mv {
+    width: calc(100%-30px);
+    height: 100%;
+  }
+  #container .left-box .all-mv img {
+    margin-top: 100px;
+  }
+  #container .left-box .all-mv span {
+    display: block;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 100px;
+  }
+  #container .left-box .all-mv:hover {
+    background: #000000;
+    box-shadow: 0 0 20px #fff;
+  }
+  #container .mid-box {
+    flex: 6;
+  }
+  #container .mid-box .mid-top-box {
+    width: 100%;
+    height: 60%;
+  }
+  #container .mid-box .mid-top-box ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  #container .mid-box .mid-top-box ul li {
+    flex: 1;
+    margin-right: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow 500ms;
+  }
+  #container .mid-box .mid-top-box ul li .tip {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    bottom: -60px;
+    transition: all 500ms;
+  }
+  #container .mid-box .mid-top-box ul li .tip span {
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  #container .mid-box .mid-top-box ul li:hover {
+    box-shadow: 0 0 20px #fff;
+  }
+  #container .mid-box .mid-top-box ul li:hover .tip {
+    bottom: 0;
+  }
+  #container .mid-box .mid-top-box ul li:hover .tip span {
+    white-space: normal;
+  }
+  #container .mid-box .mid-top-box ul li:nth-of-type(1) a {
+    background-image: url(../images/index_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #container .mid-box .mid-top-box ul li:nth-of-type(2) a {
+    background-image: url(../images/index_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #container .mid-box .mid-top-box ul li:nth-of-type(3) a {
+    background-image: url(../images/index_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #container .mid-box .mid-top-box ul li:nth-of-type(4) a {
+    background-image: url(../images/index_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #container .mid-box .mid-bt-box {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    padding-top: 20px;
+  }
+  #container .mid-box .mid-bt-box .hot-mv {
+    flex: 1;
+    margin-right: 20px;
+  }
+  #container .mid-box .mid-bt-box .hot-mv img {
+    width: 100px;
+    height: 100px;
+    margin-top: 75px;
+  }
+  #container .mid-box .mid-bt-box .hot-mv span {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #container .mid-box .mid-bt-box .hot-mv:hover {
+    background: #000000;
+    box-shadow: 0 0 20px #fff;
+  }
+  #container .mid-box .mid-bt-box .high-mv {
+    flex: 1;
+    margin-right: 20px;
+    flex: 1;
+    margin-right: 20px;
+  }
+  #container .mid-box .mid-bt-box .high-mv img {
+    width: 100px;
+    height: 100px;
+    margin-top: 75px;
+  }
+  #container .mid-box .mid-bt-box .high-mv span {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #container .mid-box .mid-bt-box .high-mv:hover {
+    background: #000000;
+    box-shadow: 0 0 20px #fff;
+  }
+  #container .right-box {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  #container .right-box .advert {
+    width: 100%;
+    flex-direction: column;
+    flex: 2;
+    overflow: hidden;
+  }
+  #container .right-box .advert a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  #container .right-box .advert img {
+    width: 100%;
+    height: 100%;
+  }
+  #container .right-box .draw {
+    width: 100%;
+    flex-direction: column;
+    flex: 4;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  #container .right-box .draw .title {
+    display: block;
+    width: 100%;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: default;
+  }
+  #container .right-box .draw .content-box {
+    height: 390px;
+    overflow: hidden;
+  }
+  #container .right-box .draw .content-box ul li {
+    width: 80%;
+    margin: 10px 0;
+    margin-left: 15%;
+    margin-right: 5%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  #container .right-box .draw .content-box ul li:hover {
+    text-decoration: underline;
+  }
+  #container .right-box .draw .content-box ul li:nth-of-type(1) {
+    margin-top: 0;
+  }
+  #container .right-box .draw .content-box ul li span {
+    line-height: 30px;
+  }
+  

@@ -1,0 +1,198 @@
+
+.header{
+    position: relative;
+    width: 1600px;
+    height: 75px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    .back{
+        float: left;
+        height: 75px;
+        width: 100px;
+        text-align: center;
+        line-height: 75px;
+    }
+    .search{
+        width: 250px;
+        height: 35px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 20px;
+        overflow: hidden;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #fff;
+        .search-bg{
+            float: left;
+            width: 50px;
+            height: 35px;
+            background-color: rgb(61, 146, 202);
+            background-image: url(../images/search.png);
+            background-position: 10px;
+            background-size: 25px 25px;
+            background-repeat: no-repeat;
+        }
+        input{
+            float: left;
+            width: 200px;
+            height: 35px;
+            padding-left: 5px;
+            font-size: 18px;
+            line-height: 35px;
+            border: none;
+        }
+    }
+}
+@con-height:800px;
+.container{
+    position: relative;
+    width: 1600px;
+    margin: auto;
+    height: @con-height;
+    .side{
+        float: left;
+        width: 290px;
+        height: @con-height;
+        margin-right: 10px;
+        .type{
+            height: 400px;
+            margin-bottom: 10px;
+            .title{
+                text-align: left;
+                span{
+                    display: block;
+                    padding: 15px;
+                    font-size: 25px;
+                }
+            }
+            .label{
+                ul{
+                    width: 250px;
+                    margin: auto;
+                    li{
+                        float: left;
+                        width: 25%;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        padding: 5px;
+                        input{
+                            display: none;
+                            &:checked{
+                                &~label{
+                                    background: rgb(61, 146, 202);
+                                }
+                            }
+                        }
+                        label{
+                            cursor: pointer;
+                            display: block;
+                            border-radius: 3px;
+                            &:hover{
+                                background: rgb(61, 146, 202);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .area{
+            .type;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        .year{
+            .type;
+            height: 180px;
+        }
+    }
+    .content{
+        float: left;
+        width: 1300px;
+        height: @con-height;
+        
+        .select{
+            height: 40px;
+            margin-bottom: 10px;
+            line-height: 30px;
+            text-align: left;
+            padding-left: 20px;
+            span{
+                display: inline-block;
+                margin: 5px 0;
+                padding: 0 5px;
+                border-radius: 3px;
+                cursor: pointer;
+                &:hover{
+                    background: rgb(61, 146, 202);
+                }
+            }
+        }
+        .cont{
+            height: 750px;
+            width: 1300px;
+            overflow-y: scroll;
+            ul{
+                li{
+                    width: 200px;
+                    height: 300px;
+                    margin: 20px 25px;
+                    position: relative;
+                    overflow: hidden;
+                    float: left;
+                    border-radius: 5px;
+                    box-shadow: 0 0 10px #fff;
+                    &:hover{
+                        box-shadow: 0 0 20px #fff;
+                        .tip{
+                            bottom:0;
+                            span{
+                                white-space: normal;
+                            }
+                        }
+                        
+                    }
+                    a{
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .tip{
+                            position: absolute;
+                            width: 100%;
+                            height: 120px;
+                            background: rgba(0,0,0,0.5);
+                            left: 0;
+                            bottom: -60px;
+                            transition: all 500ms;
+                            p{
+                                margin: 0;
+                                pad: 0;
+                                display: block;
+                                width: 100%;
+                                line-height: 30px;
+                                text-align: left;
+                                padding-left: 10px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                font-size: 14px;
+                                span{
+                                    margin-left: 10px;
+                                    color: rgb(61, 146, 202);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .loading-box{
+                width: 100%;
+                line-height: 50px;
+            }
+        }
+    }
+}

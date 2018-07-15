@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/global.css">
+    <!--<link rel="stylesheet/less" type="text/css" href="css/mv.less" />-->
+    <!--<script src="js/less.js"></script>-->
+    <link rel="stylesheet" href="css/mv.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/Tween.js"></script>
+    <script src="js/animation.js"></script>
+    
+    <title>电影列表页</title>
+</head>
+<body>
+    <div id="bgimg">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="box-3d">
+        <div class="header box change">
+            <div class="back">
+                <a href="index.html"><img src="images/back.png" alt=""></a>
+            </div>
+            <div class="search">
+                <div class="search-bg"></div>
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="side">
+                <div class="type box change-left">
+                    <div class="title">
+                        <span>类型/TYPE</span>
+                    </div>
+                    <div class="label">
+                        <ul>
+                            <li><input id="all" type="radio" value="0" name="type" checked="checked"><label for="all">全部</label></li>
+                            <li><input id="jq" type="radio" value="1" name="type"><label for="jq">剧情</label></li>
+                            <li><label>喜剧</label></li>
+                            <li><label>动作</label></li>
+                            <li><label>爱情</label></li>
+                            <li><label>犯罪</label></li>
+                            <li><label>冒险</label></li>
+                            <li><label>战争</label></li>
+                            <li><label>惊悚</label></li>
+                            <li><label>悬疑</label></li>
+                            <li><label>恐怖</label></li>
+                            <li><label>科幻</label></li>
+                            <li><label>奇幻</label></li>
+                            <li><label>家庭</label></li>
+                            <li><label>动画</label></li>
+                            <li><label>音乐</label></li>
+                            <li><label>歌舞</label></li>
+                            <li><label>历史</label></li>
+                            <li><label>传记</label></li>
+                            <li><label>武侠</label></li>
+                            <li><label>伦理</label></li>
+                            <li><label>记录</label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="area box change-left">
+                    <div class="title">
+                        <span>地区/AREA</span>
+                    </div>
+                    <div class="label">
+                        <ul>
+                            <li><input id="all" type="radio" value="0" name="area" checked="checked"><label for="all">全部</label></li>
+                            <li><label>内地</label></li>
+                            <li><label>香港</label></li>
+                            <li><label>美国</label></li>
+                            <li><label>欧洲</label></li>
+                            <li><label>韩国</label></li>
+                            <li><label>日本</label></li>
+                            <li><label>台湾</label></li>
+                            <li><label>泰国</label></li>
+                            <li><label>印度</label></li>
+                            <li><label>其他</label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="year box change-left">
+                    <div class="title">
+                        <span>年份/YEAR</span>
+                    </div>
+                    <div class="label">
+                        <ul>
+                            <li><input id="all" type="radio" value="0" name="year" checked="checked"><label for="all">全部</label></li>
+                            <li><label>2018</label></li>
+                            <li><label>2017</label></li>
+                            <li><label>2016</label></li>
+                            <li><label>2015</label></li>
+                            <li><label>2014</label></li>
+                            <li><label>2010</label></li>
+                            <li><label>2009</label></li>
+                            <li><label>2000</label></li>
+                            <li><label>1990</label></li>
+                            <li><label>1980</label></li>
+                            <li><label>更早</label></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="select box change-right">
+                    <span>按时间排序↓</span>
+                    <span>按热度排序↓</span>
+                </div>
+                <div class="cont box change-bt">
+                    <ul class="clear">
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv2.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv1.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv3.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv4.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv2.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv2.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv1.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv3.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv4.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv2.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv2.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv1.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv3.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv4.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <img src="images/mv2.jpg" alt="">
+                                <div class="tip">
+                                    <p>变形金刚2：卷土重来<span>9.6</span></p>
+                                    <p>2018年7月13日</p>
+                                    <p>主演：范.迪塞尔</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="loading-box">
+                        正在加载...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/global.js"></script>
+    <script src="js/mv.js"></script>
+</body>
+</html> 
