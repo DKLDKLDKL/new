@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv=“X-UA-Compatible” content=“chrome=1″ />
+    <title>Document</title>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/global.css">
+    
+</head>
+<body>
+    <div class="bgimg"></div>
+    <!--背景-->
+    <!--<link rel="stylesheet/less" href="css/less/top.less">-->
+    <link rel="stylesheet" href="css/top.css">
+    <div id="top">
+        <div class="center-box">
+            <div class="logo">
+                <a href="">
+                    <img src="images/logo.png">
+                    <span>游戏交易平台</span>
+                </a>
+            </div>
+            
+            <div class="l-s">
+                <a href="">
+                    登录/注册
+                </a>
+            </div>
+            <!--取得登录状态后，登陆注册按钮改成以下注释部分-->
+            <!--
+            <div class="user">
+                <a href="">用户名</a>
+                <a href="">站内消息</a>
+                <a href="">收藏夹</a>
+                <a href="">退出</a>
+            </div>
+            -->     
+        </div>
+    </div>
+    <!--顶部公共部分1-->
+
+
+    <!--<link rel="stylesheet/less" href="css/less/header.less">-->
+    <link rel="stylesheet" href="css/header.css">
+    <div id="header">
+        <div class="notice box">
+            <p>更新公告:</p>
+            <span>本网站将于2017年7月30日进行维护，请广大用户谅解，请广大用户谅解请广大用户谅解请广大用户谅解维护时间为9:00到12:00，如有改动，请关注最新公告！</span>
+            <!--与后台的数据绑定-->
+        </div>
+        <div class="search box">
+            <div class="search-box">
+                <select>
+                    <option value ="商品">商品</option>
+                    <option value ="团购">团购</option>
+                    <option value="商家">商家</option>
+                </select>
+                <input type="text" name="" id="">
+                <input type="submit" value="搜索">
+            </div>
+            
+        </div>
+        <div class="cart box">
+            <div class="cart-box">
+                <a href="">
+                    <span>去购物车结算</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--顶部公共部分2-->
+    <!--<link rel="stylesheet/less" href="css/less/index_main.less">-->
+    <link rel="stylesheet" href="css/index_main.css">
+    <div id="main" class="box clear">
+        <div class="nav clear">
+            <ul>
+                <li class="hover"><img src="images/glod.png"><span>金币</span></li>
+                <li><img src="images/glod.png"><span>装备</span></li>
+                <li><img src="images/glod.png"><span>账号</span></li>
+                <li><img src="images/glod.png"><span>宠物</span></li>
+                <li><img src="images/glod.png"><span>道具</span></li>
+            </ul>
+        </div>
+        <!--与后台的商品类型绑定-->
+        <div class="list clear">
+            <div class="list-title">
+                <span>商铺名称</span>
+                <span>商品名称</span>
+                <span>游戏类别</span>
+                <span>单价</span>
+                <span>剩余库存</span>
+            </div>
+            <div class="scroll-box clear">
+                <div class="item">
+                    <!--上面商品类型有多少个，这个item类就对应的出现多少个，
+                        首页每个分类最多20个商品，不做分页处理-->
+                    <!--我这里用jQuery做了一个死的遍历，
+                        只是为了看效果,改的时候删掉，
+                        只要你动态创建出了对应的dom，效果还在-->
+                    <ul>
+                        <li>
+                            <a class="sname" href="">逆水寒专卖店</a>
+                            <!--商家名称，链接到商家页面-->
+                            <a class="name" href="">金币100枚</a>
+                            <!--商品名称，链接到商品详情页-->
+                            <span class="brand">逆水寒</span>
+                            <!--商品品牌-->
+                            <span class="price">￥:199</span>
+                            <!--商品价格-->
+                            <span class="stock">库存200</span>
+                            <!--商品库存-->
+                            <a class="detail" href="">详情</a>
+                            <!--链接到商品详情页-->
+                            <a class="buynow" href="">立即购买</a>
+                            <!--进入结算页面-->
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <script src="js/index_main.js"></script>
+    <!--主页中间部分-->
+    <!--<link rel="stylesheet/less" href="css/less/footer.less">-->
+    <link rel="stylesheet" href="css/footer.css">
+    <div id="footer">
+        <div class="footer-top clear">
+            <div class="article">
+                <ul>
+                    <li><a href="">>关于我们</a></li>
+                    <li><a href="">>联系我们</a></li>
+                    <li><a href="">>帮助中心</a></li>
+                    <li><a href="">>如何购买</a></li>
+                    <li><a href="">>如何出售</a></li>
+                </ul>
+                <!--链接对应的内容指向文章页面，后台为文章管理-->
+            </div>
+            <div class="pay">
+                支付方式：
+                <a href=""><img src="images/zfb.png" alt=""></a>
+                <a href=""><img src="images/wx.png" alt=""></a>
+                <a href=""><img src="images/paypal.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright 2000-2018. All rights reserved.
+        </div>
+    </div>
+    <!--底部公共部分-->
+</body>
+    <script src="js/less.js"></script>
+</html>

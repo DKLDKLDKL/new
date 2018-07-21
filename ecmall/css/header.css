@@ -1,0 +1,105 @@
+#header {
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    padding-top: 20px;
+  }
+  #header .notice {
+    width: 850px;
+    height: 150px;
+    float: left;
+    padding: 0 20px;
+    line-height: 30px;
+    text-align: left;
+  }
+  #header .notice p {
+    margin: 0;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 30px;
+    background-image: url(../images/3273.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 5px 5px;
+  }
+  #header .notice span {
+    display: block;
+    text-indent: 2rem;
+  }
+  #header .search {
+    width: 330px;
+    height: 55px;
+    float: right;
+    margin-bottom: 20px;
+    padding: 5px 5px 5px 5px;
+  }
+  #header .search .search-box {
+    height: 45px;
+    width: 320px;
+    border: 2px solid #D9534F;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  #header .search select {
+    float: left;
+    width: 50px;
+    height: 100%;
+    color: #fff;
+    background: #D9534F;
+    outline: none;
+    border: none;
+    line-height: 50px;
+    overflow: hidden;
+  }
+  #header .search select option {
+    outline: none;
+    border: none;
+  }
+  #header .search input[type=text] {
+    width: 220px;
+    height: 100%;
+    float: left;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    color: #fff;
+    outline: none;
+    padding-left: 15px;
+  }
+  #header .search input[type=submit] {
+    width: 46px;
+    height: 100%;
+    float: left;
+    background: #D9534F;
+    border: none;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+  }
+  #header .cart {
+    width: 330px;
+    height: 75px;
+    float: right;
+    padding: 12.5px;
+  }
+  #header .cart .cart-box {
+    width: 200px;
+    height: 100%;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    background: #D9534F;
+    background-image: url(../images/cart.png);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: 5px 5px;
+    padding-left: 50px;
+    border-radius: 5px;
+  }
+  #header .cart .cart-box:hover {
+    box-shadow: 0 0 5px #fff;
+  }
+  #header .cart .cart-box a {
+    display: block;
+  }
+  

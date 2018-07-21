@@ -1,0 +1,40 @@
+#footer {
+    width: 100%;
+    border-top: 2px solid #666;
+    position: relative;
+    background: #141922;
+  }
+  #footer .footer-top {
+    width: 1200px;
+    margin: auto;
+  }
+  #footer .footer-top .article {
+    width: 800px;
+    float: left;
+  }
+  #footer .footer-top .article ul li {
+    float: left;
+    width: 100px;
+    line-height: 70px;
+    margin: 0 30px;
+  }
+  #footer .footer-top .article ul li a:hover {
+    color: #D9534F;
+  }
+  #footer .footer-top .pay {
+    width: 400px;
+    float: left;
+    line-height: 70px;
+  }
+  #footer .footer-top .pay img {
+    width: 2rem;
+    height: 2rem;
+  }
+  #footer .footer-bottom {
+    width: 100%;
+    line-height: 100px;
+    font-size: 14px;
+    color: #999;
+    background: rgba(31, 38, 53, 0.8);
+  }
+  
